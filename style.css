@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;600;900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+.container {
+    max-width: 450px;
+    height: 550px;
+    border: black solid 5px;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 30px;
+    box-shadow: 10px 10px 10px 10px rgb(0,0,0,.9);
+    transition: .5s;
+    text-align: center;
+}
+
+.calculator-name {
+    font-size: 30px;
+    font-weight: 300;
+    margin: 0;
+    width: fit-content;
+}
+
+.display {
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.display #result {
+    width: 407px;
+    height: 90px;
+}
+
+.btn {
+    margin: 0.3px;
+    border-radius: 5px;
+    width: 101.25px;
+    height: 70px;
+    font-size: 30px;
+    color: white;
+    background-color: black;
+}
+
+.all-btn {
+    font-size: 0;
+    margin-top: 5px;
+}
+
+.btn:hover {
+    background-color: grey;
+}
